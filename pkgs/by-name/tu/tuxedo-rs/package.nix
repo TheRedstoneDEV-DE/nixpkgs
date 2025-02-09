@@ -12,10 +12,10 @@ rustPlatform.buildRustPackage rec {
   # NOTE: This src is shared with tailor-gui.
   # When updating, the tailor-gui.cargoDeps hash needs to be updated.
   src = fetchFromGitHub {
-    owner = "AaronErhardt";
+    owner = "TheRedstoneDEV-DE";
     repo = "tuxedo-rs";
-    rev = "tailor-v${version}";
-    hash = "sha256-+NzwUs8TZsA0us9hI1UmEKdiOo9IqTRmTOHs4xmC7MY=";
+    rev = "ab90b1f8a097b50e229452b3c1dea1d930be3d38";
+    hash = "sha256-DHSsknk8keEY6w8OgDui8fGFDM3aZRhwfKVGLHUn8jM=";
   };
 
   # Some of the tests are impure and rely on files in /etc/tailord
